@@ -3,9 +3,7 @@
 //
 
 #ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
 #endif
-
-#import "JBB_C_Functions.h"
-#import "JBBTypes.h"
 
