@@ -28,7 +28,6 @@
 		17AC37B5110FE9BC003D1F3A /* NSData+JBBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AC37B3110FE9BC003D1F3A /* NSData+JBBAdditions.m */; };
 		17E26A5411624CF300319A60 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E26A5311624CF300319A60 /* AppKit.framework */; };
 		17E26B0F11624D0C00319A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
-		17F37900113ECF9100A60C22 /* JBBTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F378FF113ECF9100A60C22 /* JBBTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 		17AC37B2110FE9BC003D1F3A /* NSData+JBBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+JBBAdditions.h"; path = "Classes/Extensions/NSData+JBBAdditions.h"; sourceTree = "<group>"; };
 		17AC37B3110FE9BC003D1F3A /* NSData+JBBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+JBBAdditions.m"; path = "Classes/Extensions/NSData+JBBAdditions.m"; sourceTree = "<group>"; };
 		17E26A5311624CF300319A60 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		17F378FF113ECF9100A60C22 /* JBBTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBTypes.h; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* JBBAdditions_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBAdditions_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* JBBAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBBAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,7 +174,6 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				17F378FF113ECF9100A60C22 /* JBBTypes.h */,
 				32DBCF5E0370ADEE00C91783 /* JBBAdditions_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -199,7 +196,6 @@
 				1738CAB40ECD03FA0083B579 /* NSNumber+JBBAdditions.h in Headers */,
 				178A9CF8110B3952000BDC76 /* NSObject+JBBAdditions.h in Headers */,
 				17AC37B4110FE9BC003D1F3A /* NSData+JBBAdditions.h in Headers */,
-				17F37900113ECF9100A60C22 /* JBBTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
