@@ -1,10 +1,10 @@
-= JBBAdditions Framework =
+# JBBAdditions Framework
 
-== Note About Continuations ==
+## Note About Continuations
 
 The continuations work that used to be in this framework has now been moved to its [own repository][JBBContinuations].
 
-== Purpose ==
+## Purpose
 
 The purpose of this framework is to provide a few handy additions to Cocoa (actually, to Foundation and AppKit).
 
